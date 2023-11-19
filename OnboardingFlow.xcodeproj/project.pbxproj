@@ -15,6 +15,8 @@
 		B78267252B0AA04900F7694B /* OnboardingFlowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78267242B0AA04900F7694B /* OnboardingFlowUITests.swift */; };
 		B78267272B0AA04900F7694B /* OnboardingFlowUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78267262B0AA04900F7694B /* OnboardingFlowUITestsLaunchTests.swift */; };
 		B78267342B0AA0E600F7694B /* WelcomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78267332B0AA0E600F7694B /* WelcomePage.swift */; };
+		B78267362B0AA73200F7694B /* FeaturesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78267352B0AA73200F7694B /* FeaturesPage.swift */; };
+		B78267382B0AA7B700F7694B /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78267372B0AA7B700F7694B /* FeatureCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		B78267242B0AA04900F7694B /* OnboardingFlowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFlowUITests.swift; sourceTree = "<group>"; };
 		B78267262B0AA04900F7694B /* OnboardingFlowUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFlowUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B78267332B0AA0E600F7694B /* WelcomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePage.swift; sourceTree = "<group>"; };
+		B78267352B0AA73200F7694B /* FeaturesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesPage.swift; sourceTree = "<group>"; };
+		B78267372B0AA7B700F7694B /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				B78267082B0AA04800F7694B /* OnboardingFlowApp.swift */,
 				B782670A2B0AA04800F7694B /* ContentView.swift */,
 				B78267332B0AA0E600F7694B /* WelcomePage.swift */,
+				B78267352B0AA73200F7694B /* FeaturesPage.swift */,
+				B78267372B0AA7B700F7694B /* FeatureCard.swift */,
 				B782670C2B0AA04900F7694B /* Assets.xcassets */,
 				B782670E2B0AA04900F7694B /* OnboardingFlow.entitlements */,
 				B782670F2B0AA04900F7694B /* Preview Content */,
@@ -263,8 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B78267342B0AA0E600F7694B /* WelcomePage.swift in Sources */,
+				B78267362B0AA73200F7694B /* FeaturesPage.swift in Sources */,
 				B782670B2B0AA04800F7694B /* ContentView.swift in Sources */,
 				B78267092B0AA04800F7694B /* OnboardingFlowApp.swift in Sources */,
+				B78267382B0AA7B700F7694B /* FeatureCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
