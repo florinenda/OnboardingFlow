@@ -14,6 +14,7 @@
 		B782671B2B0AA04900F7694B /* OnboardingFlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B782671A2B0AA04900F7694B /* OnboardingFlowTests.swift */; };
 		B78267252B0AA04900F7694B /* OnboardingFlowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78267242B0AA04900F7694B /* OnboardingFlowUITests.swift */; };
 		B78267272B0AA04900F7694B /* OnboardingFlowUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78267262B0AA04900F7694B /* OnboardingFlowUITestsLaunchTests.swift */; };
+		B78267342B0AA0E600F7694B /* WelcomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78267332B0AA0E600F7694B /* WelcomePage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		B78267202B0AA04900F7694B /* OnboardingFlowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnboardingFlowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B78267242B0AA04900F7694B /* OnboardingFlowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFlowUITests.swift; sourceTree = "<group>"; };
 		B78267262B0AA04900F7694B /* OnboardingFlowUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFlowUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B78267332B0AA0E600F7694B /* WelcomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				B78267082B0AA04800F7694B /* OnboardingFlowApp.swift */,
 				B782670A2B0AA04800F7694B /* ContentView.swift */,
+				B78267332B0AA0E600F7694B /* WelcomePage.swift */,
 				B782670C2B0AA04900F7694B /* Assets.xcassets */,
 				B782670E2B0AA04900F7694B /* OnboardingFlow.entitlements */,
 				B782670F2B0AA04900F7694B /* Preview Content */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B78267342B0AA0E600F7694B /* WelcomePage.swift in Sources */,
 				B782670B2B0AA04800F7694B /* ContentView.swift in Sources */,
 				B78267092B0AA04800F7694B /* OnboardingFlowApp.swift in Sources */,
 			);
